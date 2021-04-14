@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T15:38:17.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="1eVgMcVKQ8w9Z1tZmLok" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T15:52:29.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="znPh9OW8Kjb-7HBcnEpv" version="14.6.0" type="github">
   <diagram id="N8ujg134AY5-pSwGKWIb" name="Page-1">
     <mxGraphModel dx="2058" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -159,7 +159,7 @@
             <mxPoint x="20" y="440" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uHiuThIKs9ukPwsspp7C-34" value="consume partition-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;" parent="v06ttbZFg-mQVMNtXIl2-15" vertex="1" connectable="0">
+        <mxCell id="uHiuThIKs9ukPwsspp7C-34" value="consume message-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;" parent="v06ttbZFg-mQVMNtXIl2-15" vertex="1" connectable="0">
           <mxGeometry x="-0.6133" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -174,7 +174,7 @@
             <mxPoint x="20" y="440" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uHiuThIKs9ukPwsspp7C-35" value="consume partition-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;" parent="v06ttbZFg-mQVMNtXIl2-16" vertex="1" connectable="0">
+        <mxCell id="uHiuThIKs9ukPwsspp7C-35" value="consume message-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;" parent="v06ttbZFg-mQVMNtXIl2-16" vertex="1" connectable="0">
           <mxGeometry x="-0.6072" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -190,7 +190,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uHiuThIKs9ukPwsspp7C-36" value="consume partition-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;" parent="v06ttbZFg-mQVMNtXIl2-17" vertex="1" connectable="0">
+        <mxCell id="uHiuThIKs9ukPwsspp7C-36" value="consume message-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;" parent="v06ttbZFg-mQVMNtXIl2-17" vertex="1" connectable="0">
           <mxGeometry x="-0.6152" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
