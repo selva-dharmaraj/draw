@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T21:14:41.616Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="HWbpKyfPlTr5LsSmeuMn" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-04T21:54:52.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Gkj8uSq7DUe3lBbVHuPy" version="14.7.6" type="github">
   <diagram id="tJItVRqZhzQuj05DMi1-" name="Page-1">
     <mxGraphModel dx="1460" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#283618" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="j7GF4RcRgUKBaXRiywtZ-21" value="Watch Worker Status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-20" vertex="1" connectable="0">
+        <mxCell id="j7GF4RcRgUKBaXRiywtZ-21" value="Watch&lt;br&gt;Partition Status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-20" vertex="1" connectable="0">
           <mxGeometry x="-0.0483" y="-1" relative="1" as="geometry">
             <mxPoint x="-8" y="28" as="offset" />
           </mxGeometry>
@@ -83,9 +83,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="j7GF4RcRgUKBaXRiywtZ-25" value="Publish Worker Status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-24" vertex="1" connectable="0">
+        <mxCell id="j7GF4RcRgUKBaXRiywtZ-25" value="Publish&lt;br&gt;Partition Status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-24" vertex="1" connectable="0">
           <mxGeometry x="-0.3189" y="-1" relative="1" as="geometry">
-            <mxPoint x="-47" y="95" as="offset" />
+            <mxPoint x="-47" y="35" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-38" value="4.1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#000000;rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-24" vertex="1" connectable="0">
