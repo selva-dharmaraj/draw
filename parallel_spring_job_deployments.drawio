@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T23:43:27.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="UldRgvREX4hDqY0fcAi6" version="14.7.6" type="github"><diagram id="tJItVRqZhzQuj05DMi1-" name="Page-1">7Vldc5s4FP01fsQDAmz8GJx40/2a7mRnu/vkkUEG1QJRIdd2f/1egcDmI3G6a9pmhownhnMvAh0dHeniib1Mjj8JnMW/8ZCwCTLD48S+nyDk2Q78V8CpBFwPlUAkaFhC1hl4ol+IBk2N7mlI8kai5JxJmjXBgKcpCWQDw0LwQzNty1nzrhmOSAd4CjDroh9oKGONWqZ5DjwSGsX61p6rAwmukjWQxzjkhwvIfpjYS8G5LI+S45IwxV3FS3nd6plo/WCCpPI1FyTRzrc///0lX/7x5+rxL/nh8R9szMpWPmO21x3WDytPFQOC79OQqEasie0fYirJU4YDFT3AkAMWy4TpsG6OCEmOzz6nVfceVEN4QqQ4QUp1gaMJ04qppXA487+oSI0vqHdsDWI95lHd9pkWONDMfAVLXoelpyAm4Z4R0aHrgowQ53FBnFkRlzeJ21LGlpxxUVxqI2/uPgAzfi4F35GLyLb4g0jGaSqL7rk+fMypaboTtDSnM1t9TVzIXhYBq4BRC130okUT7czFMw3Pi6sh3tOI1cKQ18qFD3QvxpliITlGyjOmu/2GiJQAPVMK81h1U7wrDu4DwdOPfAMQwxvC3vOcSlpGQE5Av+0rsVGYsL+2EiRXFGNGo970Ox3YcCl5chvp2k3lOj3KdfuE6w2k20VHt7/UVAO+ZPtcjhIeWMIJzkvltRUsSgU8K+CEhqEaklrDjGxlj4LrvFuYr3fdfGc9Eh7Mei30A65Qboskp2eFMvtYWgxGk9ND0wwnqvPpJs+KjpttqOEGv8PWbbSCQa0gVRS/MIFv5RC30Pjiusadb2oE7o2NYFAbnbXYm3fZ87w++tzB+Ovb6r9kBzjRExyZRukdn/aqVvGTkwFMYMYIM2BvZqTnzCpl9JFhfSR/Ky7iuVfnQd+OeDgXmb8lF5k3XcS2u+yhvkp4QP66pfDPUJ5BLcFTmJ6sqIjN9zwcHWBQB8iA4a74ypL3qyvlugTuFMs3EDGaXRfxN91IILsjYbWKBbWADZqol4JtAVejU0ZfZwJXLbcYKx8Hu6hwnT5pF/e7y7Py7aaaMrg62dKjmke+fqT7WEr1WvROEYRWQZiahXC2FPxMTAMYY7QKscTwpXBY5lc5DyhmRkJCCtRYJtQRK+TUgXURWDdOGI/4OuTBDqiykDfN0uiFVWeIRaX1msV8naKcwRTVXVRwlq3VaBjJJyPBKQyPmJ5AL6MrDumKIckYB1X45yVckZnviAxiffIW3sIgs6Xw1xZfaCiFd5d98Mz1qOxR2f9T2XP0fZVdbTNayj5wsRuFPQr7Pwvb7XlxfiNhw+n5V+MidvHTu/3wLw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-04T23:56:03.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="WRXNw0wMLTt68zeFa0oA" version="14.7.6" type="github">
+  <diagram id="tJItVRqZhzQuj05DMi1-" name="Page-1">
+    <mxGraphModel dx="1752" dy="1222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mgkB3vXzsCQTFHVtWHYa-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="210" width="920" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="mgkB3vXzsCQTFHVtWHYa-8" value="Scheduler" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=cronjob;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="30" y="410" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="mgkB3vXzsCQTFHVtWHYa-9" value="Kubernetes Cluster" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=master;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="180" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgkB3vXzsCQTFHVtWHYa-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="240" width="900" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="mgkB3vXzsCQTFHVtWHYa-14" value="&amp;nbsp; &amp;nbsp;Kubernetes Node" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=node;verticalAlign=middle;labelPosition=right;verticalLabelPosition=middle;align=left;" parent="1" vertex="1">
+          <mxGeometry x="190" y="240" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgkB3vXzsCQTFHVtWHYa-15" value="" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="160" y="270" width="880" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="mgkB3vXzsCQTFHVtWHYa-16" value="&amp;nbsp;Kubernetes Namespace - &quot;my-parallel-job-namespace&quot;" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=ns;verticalAlign=middle;labelPosition=right;verticalLabelPosition=middle;align=left;" parent="1" vertex="1">
+          <mxGeometry x="185" y="270" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgkB3vXzsCQTFHVtWHYa-17" value="" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="170" y="330" width="220" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="mgkB3vXzsCQTFHVtWHYa-18" value="Job Controller Pod" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;" parent="1" vertex="1">
+          <mxGeometry x="260" y="330" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgkB3vXzsCQTFHVtWHYa-27" value="app_http-mq-manager.yml" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=deploy;rounded=0;sketch=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="200" y="440" width="40" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="mgkB3vXzsCQTFHVtWHYa-28" value="job_manager.yml" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=deploy;rounded=0;sketch=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="200" y="472" width="40" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="mgkB3vXzsCQTFHVtWHYa-30" value="job_worker.yml" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=deploy;rounded=0;sketch=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="200" y="510" width="40" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="Kuz7w4yUgBVaoaCUK4ov-1" value="Image_job-controller" style="shape=image;html=1;verticalAlign=middle;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_docker-128.png;rounded=0;sketch=0;fontColor=#000000;strokeColor=#DDA15E;fillColor=#BC6C25;labelPosition=right;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="397" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Kuz7w4yUgBVaoaCUK4ov-2" value="" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500" y="303.5" width="220" height="116.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Kuz7w4yUgBVaoaCUK4ov-3" value="Image_job-manager" style="shape=image;html=1;verticalAlign=middle;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_docker-128.png;rounded=0;sketch=0;fontColor=#000000;strokeColor=#DDA15E;fillColor=#BC6C25;labelPosition=right;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360.5" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Kuz7w4yUgBVaoaCUK4ov-4" value="Manager Pod" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;" vertex="1" parent="1">
+          <mxGeometry x="590" y="303.5" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Kuz7w4yUgBVaoaCUK4ov-7" value="" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="770" y="300" width="220" height="116.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Kuz7w4yUgBVaoaCUK4ov-8" value="Image_job-worker" style="shape=image;html=1;verticalAlign=middle;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_docker-128.png;rounded=0;sketch=0;fontColor=#000000;strokeColor=#DDA15E;fillColor=#BC6C25;labelPosition=right;align=left;" vertex="1" parent="1">
+          <mxGeometry x="790" y="357" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Kuz7w4yUgBVaoaCUK4ov-9" value="Worker Pod" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;" vertex="1" parent="1">
+          <mxGeometry x="860" y="300" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
