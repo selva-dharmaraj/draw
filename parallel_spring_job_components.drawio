@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T21:54:52.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Gkj8uSq7DUe3lBbVHuPy" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-04T22:00:03.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="42RQ64Le3AJYMe7eWYn_" version="14.7.6" type="github">
   <diagram id="tJItVRqZhzQuj05DMi1-" name="Page-1">
     <mxGraphModel dx="1460" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#283618" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-21" value="Watch&lt;br&gt;Partition Status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-20" vertex="1" connectable="0">
           <mxGeometry x="-0.0483" y="-1" relative="1" as="geometry">
-            <mxPoint x="-8" y="28" as="offset" />
+            <mxPoint x="2" y="28" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-36" value="3.1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#000000;rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-20" vertex="1" connectable="0">
@@ -126,7 +126,7 @@
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-44" value="Read Partition Information" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-43" vertex="1" connectable="0">
           <mxGeometry x="-0.0764" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-45" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#000000;rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-43" vertex="1" connectable="0">
@@ -140,14 +140,14 @@
             <mxPoint x="620" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j7GF4RcRgUKBaXRiywtZ-47" value="Watch Job Status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-46" vertex="1" connectable="0">
+        <mxCell id="j7GF4RcRgUKBaXRiywtZ-47" value="Watch&lt;br&gt;Job Status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-46" vertex="1" connectable="0">
           <mxGeometry x="0.3237" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-51" value="5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#000000;rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-46" vertex="1" connectable="0">
           <mxGeometry x="0.7939" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-48" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.428;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#283618;strokeColor=#DDA15E;fontColor=#FEFAE0;" parent="1" source="j7GF4RcRgUKBaXRiywtZ-4" target="j7GF4RcRgUKBaXRiywtZ-3" edge="1">
@@ -158,12 +158,12 @@
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-49" value="Deploy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-48" vertex="1" connectable="0">
           <mxGeometry x="-0.3197" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-50" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#000000;rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-48" vertex="1" connectable="0">
           <mxGeometry x="-0.7831" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="13" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
