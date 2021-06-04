@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T22:48:43.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="jafQrVU_2UHqmP8StOL8" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-04T22:53:50.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="eZBRGK4SjS1qMW2Zo5hM" version="14.7.6" type="github">
   <diagram id="tJItVRqZhzQuj05DMi1-" name="Page-1">
     <mxGraphModel dx="1460" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#283618" math="0" shadow="0">
       <root>
@@ -62,12 +62,12 @@
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-25" value="Publish&lt;br&gt;Partition Status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-24" vertex="1" connectable="0">
           <mxGeometry x="-0.3189" y="-1" relative="1" as="geometry">
-            <mxPoint x="-27" y="55" as="offset" />
+            <mxPoint x="5" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-38" value="4.1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#000000;rounded=1;labelBackgroundColor=#283618;fontColor=#FEFAE0;" parent="j7GF4RcRgUKBaXRiywtZ-24" vertex="1" connectable="0">
           <mxGeometry x="-0.5572" relative="1" as="geometry">
-            <mxPoint x="9" as="offset" />
+            <mxPoint x="-62" y="80" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-14" value="Worker" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" parent="1" vertex="1">
