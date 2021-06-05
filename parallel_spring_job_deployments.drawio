@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-05T23:32:53.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="30tJL_pBAkgwQfgN7w9T" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-05T23:34:03.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6HVsfxqD9PLU45C5GeVl" version="14.7.6" type="github">
   <diagram id="tJItVRqZhzQuj05DMi1-" name="Page-1">
     <mxGraphModel dx="1460" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#DAD2D8" math="0" shadow="1">
       <root>
@@ -167,13 +167,13 @@
         <mxCell id="Kuz7w4yUgBVaoaCUK4ov-69" value="Secret" style="html=1;dashed=0;whitespace=wrap;fillColor=#FAE5C7;strokeColor=#0F8B8D;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=secret;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;rounded=1;fontColor=#143642;" parent="1" vertex="1">
           <mxGeometry x="490" y="417.5" width="38" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="6YDGP5w8Ynxchr9lv6P8-1" value="Image: queue-manager" style="shape=image;html=1;verticalAlign=middle;verticalLabelPosition=middle;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-media-2104/24/social_media_social_media_logo_docker-128.png;rounded=0;dashed=1;sketch=0;fontColor=#143642;strokeColor=#808080;fillColor=#FAE5C7;labelPosition=right;align=left;" vertex="1" parent="1">
+        <mxCell id="6YDGP5w8Ynxchr9lv6P8-1" value="Image: queue-manager" style="shape=image;html=1;verticalAlign=middle;verticalLabelPosition=middle;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-media-2104/24/social_media_social_media_logo_docker-128.png;rounded=0;dashed=1;sketch=0;fontColor=#143642;strokeColor=#808080;fillColor=#FAE5C7;labelPosition=right;align=left;opacity=70;" vertex="1" parent="1">
           <mxGeometry x="491" y="310" width="49" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="6YDGP5w8Ynxchr9lv6P8-2" value="Image: job-manager" style="shape=image;html=1;verticalAlign=middle;verticalLabelPosition=middle;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-media-2104/24/social_media_social_media_logo_docker-128.png;rounded=0;dashed=1;sketch=0;fontColor=#143642;strokeColor=#808080;fillColor=#FAE5C7;labelPosition=right;align=left;" vertex="1" parent="1">
+        <mxCell id="6YDGP5w8Ynxchr9lv6P8-2" value="Image: job-manager" style="shape=image;html=1;verticalAlign=middle;verticalLabelPosition=middle;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-media-2104/24/social_media_social_media_logo_docker-128.png;rounded=0;dashed=1;sketch=0;fontColor=#143642;strokeColor=#808080;fillColor=#FAE5C7;labelPosition=right;align=left;opacity=70;" vertex="1" parent="1">
           <mxGeometry x="491" y="551" width="49" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="6YDGP5w8Ynxchr9lv6P8-3" value="Image: job-worker" style="shape=image;html=1;verticalAlign=middle;verticalLabelPosition=middle;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-media-2104/24/social_media_social_media_logo_docker-128.png;rounded=0;dashed=1;sketch=0;fontColor=#143642;strokeColor=#808080;fillColor=#FAE5C7;labelPosition=right;align=left;" vertex="1" parent="1">
+        <mxCell id="6YDGP5w8Ynxchr9lv6P8-3" value="Image: job-worker" style="shape=image;html=1;verticalAlign=middle;verticalLabelPosition=middle;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-media-2104/24/social_media_social_media_logo_docker-128.png;rounded=0;dashed=1;sketch=0;fontColor=#143642;strokeColor=#808080;fillColor=#FAE5C7;labelPosition=right;align=left;opacity=70;" vertex="1" parent="1">
           <mxGeometry x="790" y="528" width="49" height="49" as="geometry" />
         </mxCell>
       </root>
