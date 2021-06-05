@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-05T20:10:44.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="H1_ZCumEVOxdbznL25eJ" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-05T20:53:06.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="JrGmp6TsNmbKEeseB147" version="14.7.6" type="github">
   <diagram id="tJItVRqZhzQuj05DMi1-" name="Page-1">
     <mxGraphModel dx="1208" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#DAD2D8" math="0" shadow="1">
       <root>
@@ -18,13 +18,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-1" value="Manager" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="150" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-2" value="Worker" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="740" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="770" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-3" value="Http Queue Manager" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="120" y="620" width="680" height="60" as="geometry" />
+          <mxGeometry x="150" y="620" width="680" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" parent="1" source="j7GF4RcRgUKBaXRiywtZ-4" target="j7GF4RcRgUKBaXRiywtZ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -53,11 +53,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-4" value="Job Controller" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="440" y="290" width="160" height="60" as="geometry" />
+          <mxGeometry x="470" y="290" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-24" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" parent="1" source="j7GF4RcRgUKBaXRiywtZ-14" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="620" as="targetPoint" />
+            <mxPoint x="670" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-25" value="Publish&lt;br&gt;Partition Status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=#DAD2D8;fontColor=#143642;" parent="j7GF4RcRgUKBaXRiywtZ-24" vertex="1" connectable="0">
@@ -71,13 +71,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-14" value="Worker" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="750" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="780" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-15" value="Worker" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="760" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="790" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-16" value="Worker" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="770" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="800" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-40" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" parent="1" source="j7GF4RcRgUKBaXRiywtZ-28" target="j7GF4RcRgUKBaXRiywtZ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -93,16 +93,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-28" value="Scheduler (Cron-Job)" style="verticalLabelPosition=top;html=1;verticalAlign=bottom;align=center;strokeColor=#0F8B8D;shape=mxgraph.azure.scheduler;pointerEvents=1;labelPosition=center;rounded=1;shadow=0;labelBorderColor=none;fillColor=#FAE5C7;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="499" y="140" width="40" height="50" as="geometry" />
+          <mxGeometry x="529" y="140" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-43" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.616;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" parent="1" target="j7GF4RcRgUKBaXRiywtZ-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640.44" y="680.8400000000001" as="sourcePoint" />
-            <mxPoint x="933" y="471" as="targetPoint" />
+            <mxPoint x="670.44" y="680.8400000000001" as="sourcePoint" />
+            <mxPoint x="963" y="471" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="640" y="760" />
-              <mxPoint x="920" y="760" />
-              <mxPoint x="920" y="515" />
+              <mxPoint x="670" y="760" />
+              <mxPoint x="950" y="760" />
+              <mxPoint x="950" y="515" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -118,8 +118,8 @@
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-46" value="" style="endArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.646;exitY=-0.036;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" parent="1" source="j7GF4RcRgUKBaXRiywtZ-3" target="j7GF4RcRgUKBaXRiywtZ-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="550" as="sourcePoint" />
-            <mxPoint x="620" y="500" as="targetPoint" />
+            <mxPoint x="600" y="550" as="sourcePoint" />
+            <mxPoint x="650" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-47" value="Watch&lt;br&gt;Job Status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=#DAD2D8;fontColor=#143642;" parent="j7GF4RcRgUKBaXRiywtZ-46" vertex="1" connectable="0">
@@ -134,8 +134,8 @@
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-48" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" parent="1" source="j7GF4RcRgUKBaXRiywtZ-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="550" as="sourcePoint" />
-            <mxPoint x="480" y="619" as="targetPoint" />
+            <mxPoint x="600" y="550" as="sourcePoint" />
+            <mxPoint x="510" y="619" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j7GF4RcRgUKBaXRiywtZ-49" value="Deploy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=#DAD2D8;fontColor=#143642;" parent="j7GF4RcRgUKBaXRiywtZ-48" vertex="1" connectable="0">
