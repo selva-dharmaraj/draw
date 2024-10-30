@@ -1,0 +1,51 @@
+Slide - 1
+
+Good morning afternoon everyone. I'm Selva Dharmaraj senior lead, architect for Lending Innovation
+
+This session is divided into two parts. First, I'll provide a comprehensive architectural view of our lending, Innovations product offerings and related capabilities, We'll also examine the dependencies within the Chase, ecosystem and explore architectural recommendations, to enhance, autonomy, and speed to Market. In the second part, I will take you on a deeper dive into some of the tech higlights we have accomplished in Q3 2024 for the capabilities we are building in modern infrastructure following Architecture recommendation.
+
+All right, let's dive into the lending, Innovation architecture. This first slide presents a high-level view of our lending ecosystem. To give you this comprehensive picture, we'll examine our offerings from an end-to-end architectural perspective.
+
+This slide provides a snapshot of our
+Current lending products: What we offer today and their key differences.
+Accessibility: when, and how customers can access these products
+Systems: Inernal and external systems involved in each offering product
+Roadmap: what's available now? And what's under development.
+
+Before we dive into the specifics of each lending product, let's recap how our customers typically use their Chase products. Whether it's swiping a credit card using a debit card the process involves a real-time communication flow between the merchant, Aquirer Bank, payment Network like Visa or MasterCard and finally, Chase the issuer Bank. We verify funds and approve the transaction. It's important to highlight that our lending offerings, don't disrupt this standard industry process. Instead, they provide customers with greater flexibility.
+
+To cater to diverse needs. We've developed a range of lending products that integrate seamlessly with the customer's Journey. These fall into three major categories, pre-purchase at purchase and post purchase options. We've organized them chronologically by their launch date and used color coding to indicate their Market status green for live and purple for under development.
+
+Now let's see each product. CPOT, pre-purchase (MCL) allows customers to proactively plan expenses and access their credit line for a loan. CPOT post purchase MCP which empowers customers to convert purchases into manageable monthly installments. CPOT at purchase (MCI) customers, see installment payment options during checkout providing flexibility at the point of sale. We launched this with Amazon last year and are expanding to three more partners this year. third one is Buy now pay later (PI4) this allows customers to convert debit card, transactions into four easy installments after a purchase. Buy now pay later Springfield currently under development. This will allow customers to take a loan for a purchase before it happens. This gives you a high level architectural view of our five lending product offerings.
+
+
+Slide - 2
+
+Now that you have a good understanding of our lending products, let's dive into the capabilities and functionalities we need to build to support these Innovative lending Solutions. This slide provides a breakdown of the various functionalities we need to support those five product offerings. As you can see, we've organized these capabilities into 18 domains and sub-domains each represented by a box.
+
+You'll notice we have several boxes here. Each representing different capabilities. Let me break it down for you. First, the uncolored boxes. These represent common capabilities required by both our card installment and alternative lending products. These are the foundational elements that support multiple product lines. Now, let's look at the purple boxes. These capabilities are specific to our card installment products. They include things like partner management, Partner relationship and fee management. These are crucial for CPOT products we discussed earlier. The blue boxes represent capabilities specific to alternative lending, these include account management account reporting funding managing funding accounts and payoff processes. These are essential for products, like buy now pay later.
+
+The Stars in the box represents the capabilities we have impacted in Q3 and will discuss more detail on this later this session.
+
+Now you might be wondering about the common capabilities and how they fit into the bigger picture. From an architectural perspective, these capabilities are mapped to multiple products in our Chase ecosystem. This is where it gets really interesting from a development standpoint. We're continuously working to align these capabilities to proper domains and products. Our goal is to minimize dependencies with other products, allowing us to have more autonomy in our product development. This approach allows us to be more agile and responsive to Market needs.
+
+
+Slide - 3
+
+Okay, so we've seen the capabilities needed for our lending products. Now let's zoom out and see how these connect with the broader Chase ecosystem. This diagram might look a bit complex at first, but bear with me as we break it down. It shows all the capabilities and the various products within Chase that support them.
+
+We have 31 products involved here, represented with different colors. The blue boxes represent products within our connected Commerce line of business while the gray boxes are products from other areas. And right here in the middle, this blue oval is our lending Innovation product which as you can see has quite a few modules within it. We'll get to that in just a moment. Now, there are 10 products in this diagram, directly impact our alternative lending product line (like GBP, Collections, Reporting etc) but for card installment leverage their existing functionalities without making any direct changes.
+
+Let's start on the left side. These first three products are provided by the card installment area. You can see, they're accessed through two main channels our digital channels (cpot pre and post purchase). At-Purchase product, customer access it through partner portals or websites. We've also marked our connected Commerce travel product as an external partner here.
+
+Next to the partner portal, we have our connected Commerce products acting as the front gate. This is where Commerce payment, our Safepaay team and partner Channel help us expose, apis and integrate with Partners. Moving to the top, we have the customer acquisition and marketing platform. Two key products here are personalization and customer Insight (P&I) which handles customer and transaction eligibility and marketing automation which supports our cpot marketing campaigns. Both of these products rely on risk related data to execute certain rules. That data comes from the risk product next to them. The risk platform has three internal products one for modeling, which provides a 360 degree risk, score and others that gather data from the data Lake. Speaking of which, you can see the data Lake represented right here, providing data to both, the customer acquisition and marketing platform, and the risk products.
+
+Moving down for BNPL Pay-In-4 product offering integrated with Consumer Banking. There are 4 products, Firmwide Code Deposit Platform & Deposit products support banking customer accounts. GCP support customer base and GBP is our core accounting system.
+
+Moving down. We have a set of card products that we heavily depend on card account management cam card Financial transactions. CFT card pricing and card product launch where we add new product offerings as features.
+
+Further down at the bottom we rely on two products within the operations platform servicing which assists customers through our agent portal and fulfillment and archived Services which handles customer Communications like statements. Collections, CDFO supports fraud and collection capabilities. LRCO system support for Credit Bureau reporting.
+
+And lastly, within connected Commerce, we have the benefit product which showcases these lending offerings as card benefits and Bank payments product for fund transfer.
+
+Now, let's jump into the heart of it. All our lending Innovation product. As you can see, we've developed many modules here since 2019. The Stars in this diagram represents the 5 key tech highlight items developed within Lending Innovation. Again we will discuss in detail on our next slide by let me provide the quick summary here on each item. At the bottom, the star represents the Credit Bureau reporting we have completed for Pay-In-4. The next one is around our experience layer. We had dependency with Digital Channel (DPS Proxy). Recently tech team took ownership on UI related componets the started migrating in the Lending Seal. Left side you can notice a Star which represents the integration layer our Safepay team from their Wallet Service to uplfit our strategic development discussed Springfield and Chase Travel. Next one is built-in module we are developing to improve speed to market and extend beyond CCT. The last start represents the pattern we have created to push and pull data to CCB Data Lake using CCB Data Strategy.
