@@ -1,0 +1,7 @@
+Solution 1: Enrollment through Apple Only
+
+This solution offers a streamlined enrollment process entirely within the Apple ecosystem. Customers initiate the process in the GoFar Bank app, but are seamlessly redirected to the Apple Store for authentication and enrollment. Upon adding their GoFar Bank card to their Apple Wallet, Apple securely transmits the card details to GoFar Bank for validation. GoFar Bank then generates a unique token, ensuring secure processing while minimizing the transmission of sensitive card information. Once validated, the customer can activate their free iTunes subscription directly through Apple, completing a smooth and efficient user journey.
+
+Solution 2: Enrollment through GoFar Bank or Apple
+
+This solution provides maximum flexibility by enabling customers to enroll for their iTunes subscription through either the GoFar Bank app or the Apple Store.  When enrolling through Apple, customers authenticate using their GoFar Bank credentials, streamlining the process and eliminating the need to manually enter card details. Alternatively, customers can initiate the process through the GoFar Bank app and seamlessly authenticate via the Apple login system. This dual enrollment approach caters to diverse customer preferences and ensures a convenient and user-friendly experience regardless of the chosen platform.
