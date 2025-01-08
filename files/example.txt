@@ -1,0 +1,37 @@
+Variation 1:
+
+- This option represents the most straightforward implementation.
+- By restricting bundling to transactions exceeding a specific dollar threshold, we can minimize system impacts.
+- Primarily, this variation will require adjustments to the Pricing and Lending Innovation services.
+- The core functionality remains largely unchanged, with minimal disruption to existing systems.
+
+Variation 2:
+
+- This option offers greater flexibility by allowing customers to bundle related transactions, regardless of their individual amounts. However, this flexibility comes at the cost of increased complexity.
+- This variation requires adjustments to existing transaction pre-qualification rules and may necessitate updates to existing eligibility migrate to P&I system.
+- Requires updates and new integrations with systems like Transaction Utility, Pricing and P&I to accurately identify and group related transactions for bundling and create plans.
+- The user interface will require major enhancements to enable customers to easily select and group related transactions for bundling, while maintaining simplicity and not overwhelming customers with tags shows up in all transactions.
+
+Variation 3:
+
+- "Balance-Based Plans," presents the most significant architectural challenge. This option necessitates a fundamental shift in how installment plans are created, moving away from transaction-based plans towards plans based on available credit balance.
+- This requires the development of new functionalities, including eligibility checks, risk assessments, and plan creation mechanisms.
+- This approach will have significant system-wide impacts, necessitating modifications to core systems like Lending Innovation, P&I, Card Account Management, and potentially others to build new APIs since exiting transaction based interfaces can not be re-used.
+- It will also require major updates to the user interface, including new screens and workflows for customers to create balance-based plans along with transaction based exiting plans.
+- Due to the significant system changes and the introduction of new functionalities, this option will require the highest development effort and require additional research, requirement gathering and deeper assessment.
+
+
+Variation 1: Reusability:
+Starting with Variation 1: provides a solid foundation for future transaction-based bundling options.
+Introducing Variation 2: Core components like the user interface for multi-transaction selection, basic plan creation logic, and core transaction processing flows can be reused with minimal modifications for Variation 2.
+Introducing Variation 3: Significant re-engineering would be required to support balance-based plans (Variation 3), as it necessitates a fundamentally different approach to plan creation and eligibility.
+
+Variation 2: Reusability:
+Starting with Variation 2: provides full flexibility to customer to bundle transaction and create plan. However this required larger effort to build
+Introducing Variation 1: This is not required since Variation 2 is super set of variation 1
+Introducing Variation 3: Significant re-engineering would be required to support balance-based plans (Variation 3), as it necessitates a fundamentally different approach to plan creation and eligibility.
+
+Variation 3: Reusability:
+Starting with Variation 3: This variation introduces a fundamentally new approach to installment plan creation.
+Introducing Variation 1 or 2: While some core components, such as account management and basic plan creation logic, might be partially reusable, the majority of the development effort for Variation 3 would likely be unique and not directly applicable to transaction-based bundling options.
+This approach requires significant architectural changes and would likely involve significant redevelopment efforts for transaction-based bundling options if implemented later.
